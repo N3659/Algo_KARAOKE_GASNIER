@@ -5,24 +5,30 @@ from random import*
 Chans = [0,1,2,3,4]
 ChansIndi = 0
 score = random.randint(50,100)
+#un score aléatoire entre 50 et 100 (attribute erreur que je ne comprend pas)
 
 #le joueur choisi aleatoirement un pseudo
 choixP = input()
 
 if choixP== 1:
     pseudo = "Monster"
+    print("Votre pseudo est Monster")
 
 if choixP== 2:
     pseudo = "Billy"
+    print("Votre pseudo est Billy")
 
 if choixP== 3:
     pseudo = "Lala"
+    print("Votre pseudo est Lala")
 
 if choixP== 5:
     pseudo = "DarkVador"
+    print("Votre pseudo est Darkvador")
 
 if choixP== 5:
     pseudo = "Bob l'éponge"
+    print("Votre pseudo est Bob l'éponge")
 
 #creation de la class player
 

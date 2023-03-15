@@ -1,3 +1,6 @@
+from random import*
+
+scores = [0,1,2,3,4]
 
 class Karaoke :
 
@@ -6,6 +9,8 @@ class Karaoke :
             self.nombre = nombre
             self.name = pseudo
             self.score = score
+            nombre >= 1
     
         def getScore(self):
             return self.score
+
